@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Index.css" rel="stylesheet" type="text/css">
+    <title>Risultato esame</title>
+</head>
+<body>
+    
+
+    
+    <h1 class="title1">Voto di esami</h1>
+
+
+    
+    <div id="campiDiTesto">
+
+        <input type="text" id="provaScritta" placeholder="Voto prova scritta" maxlength="2">
+        <input type="text" id="provaPratica" placeholder="Voto prova pratica" maxlength="2">
+        <input type="submit" onclick="verifica();" id="button" value="Verifica">
+
+    </div>
+    
+    
+    
+    <div id="alunnoBocciato">
+
+        <p id="messaggio1">Alunno bocciato!</p>
+        
+
+    </div>
+    
+    
+    
+    <div id="alunnoPromosso">
+
+        <p id="messaggio2">Alunno promosso!</p>
+        
+
+    </div>
+
+    <p id="risultato"></p>
+    
+    
+    
+    <script src="Index.js"></script>
+
+</body>
+</html>
